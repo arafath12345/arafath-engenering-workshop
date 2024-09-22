@@ -18,7 +18,7 @@ import Error from "../Components/Error/Error";
         {
           path: 'product/:code',
           element: <Details></Details>,
-          loader: ({ params }) => fetch(`http://localhost:5000/banner/${params.code}`)
+          loader: ({ params }) => fetch(`https://s-hop-murex.vercel.app/banner/${params.code}`)
 
         }
       ]

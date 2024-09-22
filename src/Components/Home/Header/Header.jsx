@@ -9,7 +9,7 @@ import { useQuery } from '@tanstack/react-query';
 const Header = () => {
     // Define the data fetching function for the banner data
     const fetchBannerData = async () => {
-        const response = await axios.get('http://localhost:5000/banner');
+        const response = await axios.get('https://s-hop-murex.vercel.app/banner');
         return response.data;
     };
     
