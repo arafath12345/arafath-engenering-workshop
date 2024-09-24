@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Worker from '../Worker/Worker';
 import Card_items from '../Card_item/Card_items'
+// import Worker from '../Worker/Worker';
 // import Card_items from '../Card_item/Card_items';
 // import Carder from '../../Share/Card/Carder';
 
@@ -14,7 +15,8 @@ const Home = () => {
            
             <Worker></Worker>
            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 p-10'>
-          <Card_items></Card_items>
+            {/* <Worker></Worker> */}
+          
            </div>
             
         </div>
