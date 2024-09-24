@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Worker from '../Worker/Worker';
-import Carder from '../../Share/Card/Carder';
+import Card_items from '../Card_item/card_items';
+// import Carder from '../../Share/Card/Carder';
 
 const Home = () => {
     return (
@@ -12,15 +13,7 @@ const Home = () => {
            
             <Worker></Worker>
            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 p-10'>
-           <Carder></Carder>
-           <Carder></Carder>
-           <Carder></Carder>
-           <Carder></Carder>
-           <Carder></Carder>
-           <Carder></Carder>
-           <Carder></Carder>
-           <Carder></Carder>
-           <Carder></Carder>
+          <Card_items></Card_items>
            </div>
             
         </div>

@@ -19,7 +19,7 @@ const Header = () => {
       queryKey: ['bannerData'],  // Ensure the correct queryKey format
       queryFn: fetchBannerData,   // Pass the fetch function here
     });
-    console.log(data)
+    // console.log(data)
     // Conditional rendering based on the query's loading and error state
     if (isLoading) return <p>Loading...</p>;
     if (isError) return <p>Error: {error.message}</p>;  // Display the error message
