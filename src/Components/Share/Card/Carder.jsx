@@ -20,7 +20,7 @@ const Carder = ({ info }) => {
           <span className='text-fuchsia-300'>Category:</span> {info.category}
         </p>
         {/* <Link to={`product/${ban.code}`}> */}
-        <Link to={`carddat/${info.code}`} className=' w-auto'>
+        <Link to={`carder/${info.code}`} className=' w-auto'>
           <Button>
             Read more
             <svg className="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
