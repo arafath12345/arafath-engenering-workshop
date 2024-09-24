@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Worker from '../Worker/Worker';
-import Card_items from '../Card_item/card_items';
+import Card_items from '../Card_item/Card_items'
+// import Card_items from '../Card_item/Card_items';
 // import Carder from '../../Share/Card/Carder';
 
 const Home = () => {
